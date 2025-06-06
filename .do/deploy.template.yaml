@@ -2,10 +2,10 @@ spec:
   workers:
   - name: template-discord-bot-worker
     environment_slug: python
-    source_dir: /
     git:
       branch: main
       repo_clone_url: https://github.com/ShivaniKumar1/test-discord-bot.git
+    source_dir: /
     build_command: "pip install -r requirements.txt"
     run_command: "python discord_bot.py"
     instance_count: 1
