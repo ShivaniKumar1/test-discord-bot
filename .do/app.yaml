@@ -1,6 +1,6 @@
 name: template-discord-bot-worker
 services:
-- name: bot
+- name: template-discord-bot-worker
   environment_slug: python
   github:
     branch: main
@@ -12,3 +12,4 @@ services:
   envs:
     - key: DISCORD_TOKEN
       value: <REQUIRED>
+      type: secret
