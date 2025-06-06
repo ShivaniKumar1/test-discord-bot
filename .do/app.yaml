@@ -1,6 +1,6 @@
 name: test-discord-bot
 workers:
-- name: test-discord-bot
+- name: worker
   environment_slug: python
   github:
     repo: ShivaniKumar1/test-discord-bot
