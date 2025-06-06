@@ -1,6 +1,8 @@
 spec:
+name: test-discord-bot
+
   workers:
-  - name: template-discord-bot-worker
+  - name: worker
     environment_slug: python
     git:
       branch: main
