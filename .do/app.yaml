@@ -14,4 +14,4 @@ workers:
   envs:
     - key: DISCORD_TOKEN
       value: <REQUIRED>
-      type: secret
+      type: SECRET
