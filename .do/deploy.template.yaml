@@ -1,5 +1,5 @@
 spec:
-name: test-discord-bot
+  name: test-discord-bot
 
   workers:
   - name: worker
