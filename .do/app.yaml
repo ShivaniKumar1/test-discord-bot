@@ -1,12 +1,12 @@
-name: template-discord-bot-worker
+name: test-discord-bot
 services:
-- name: template-discord-bot-worker
+- name: test-discord-bot
   environment_slug: python
   source_dir: /
   github:
     branch: main
     deploy_on_push: true
-    repo: ShivaniKumar1/template-discord-bot-worker
+    repo: ShivaniKumar1/test-discord-bot
   build_command: "pip install -r requirements.txt"
   run_command: "python discord_bot.py"
   run_type: worker
