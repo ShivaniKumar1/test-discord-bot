@@ -5,7 +5,7 @@ spec:
     source_dir: /
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/discord-bot-worker.git
+      repo_clone_url: https://github.com/ShivaniKumar1/test-discord-bot.git
     build_command: "pip install -r requirements.txt"
     run_command: "python discord_bot.py"
     run_type: worker
