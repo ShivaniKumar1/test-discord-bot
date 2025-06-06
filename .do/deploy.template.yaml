@@ -8,7 +8,6 @@ spec:
       repo_clone_url: https://github.com/ShivaniKumar1/test-discord-bot.git
     build_command: "pip install -r requirements.txt"
     run_command: "python discord_bot.py"
-    run_type: worker
     instance_count: 1
     envs:
       - key: DISCORD_TOKEN
