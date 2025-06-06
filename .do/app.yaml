@@ -1,5 +1,5 @@
 name: test-discord-bot
-services:
+workers:
 - name: test-discord-bot
   environment_slug: python
   source_dir: /
