@@ -2,6 +2,7 @@ name: template-discord-bot-worker
 services:
 - name: template-discord-bot-worker
   environment_slug: python
+  source_dir: /
   github:
     branch: main
     deploy_on_push: true
