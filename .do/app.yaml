@@ -2,11 +2,11 @@ name: test-discord-bot
 workers:
 - name: test-discord-bot
   environment_slug: python
-  source_dir: /
   github:
+    repo: ShivaniKumar1/test-discord-bot
     branch: main
     deploy_on_push: true
-    repo: ShivaniKumar1/test-discord-bot
+  source_dir: /
   build_command: "pip install -r requirements.txt"
   run_command: "python discord_bot.py"
   instance_count: 1
