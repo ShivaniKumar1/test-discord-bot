@@ -6,7 +6,7 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/template-discord-bot-worker
+    repo: ShivaniKumar1/template-discord-bot-worker
   build_command: "pip install -r requirements.txt"
   run_command: "python discord_bot.py"
   run_type: worker
