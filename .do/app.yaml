@@ -9,3 +9,15 @@ services:
   envs:
     - key: DISCORD_TOKEN
       value: <REQUIRED>
+      
+workers:
+- name: worker
+- environment_slug: python
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: digitalocean/template-discord-bot-worker
+  name: template-discord-bot-worker
+  envs:
+    - key: DISCORD_TOKEN
+      value: <REQUIRED>
